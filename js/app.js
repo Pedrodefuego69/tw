@@ -1,4 +1,6 @@
-
+var url = window.location.href;
+var swLocation = "/tw/sw.js";
+ 
 
 if(navigator.serviceWorker) {
     navigator.serviceWorker.register('/sw.js');
